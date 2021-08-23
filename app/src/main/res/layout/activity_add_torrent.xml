@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_torrent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.intelisoft.easytorrents.ui.AddTorrentActivity">
+
+    <in.workarounds.typography.TextView
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_torrent_name"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:text="Mad Max Furry Road"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+    </View>
+
+    <in.workarounds.typography.TextView
+        android:layout_width="wrap_content"
+        android:text="Save file to"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_torrent_save_path"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:text="Mad Max Furry Road"
+            android:layout_height="wrap_content" />
+
+        <in.workarounds.typography.Button
+            android:id="@+id/btn_torrent_change_download_path"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="CHANGE"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <in.workarounds.typography.Button
+            android:id="@+id/btn_torrent_download_cancel"
+            android:layout_width="0dp"
+            android:onClick="closeMe"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_height="wrap_content" />
+
+        <in.workarounds.typography.Button
+            android:id="@+id/btn_torrent_start_download"
+            android:layout_width="0dp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:text="Download"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

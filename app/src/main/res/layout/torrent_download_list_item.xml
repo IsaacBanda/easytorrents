@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:padding="8dp">
+
+    <!-- Progress bar-->
+    <com.dinuscxj.progressbar.CircleProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:transitionName="profile"
+        android:layout_height="50dp"
+        app:progress_text_color="@color/colorPrimary"
+        app:progress_text_size="18dp"
+        app:progress_stroke_width="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/download_torent_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:text="Mad Max Fury Road "
+        android:layout_alignTop="@+id/progressBar"
+        android:layout_toRightOf="@+id/progressBar"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <!-- Downloaded -->
+    <TextView
+        android:id="@+id/torrent_downloaded_size"
+        android:layout_width="wrap_content"
+        android:text="490 MB / "
+        android:layout_height="wrap_content"
+        android:layout_below="@id/download_torent_title"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/progressBar"
+        android:textSize="@dimen/rating" />
+    <TextView
+        android:id="@+id/torrent_size"
+        android:layout_width="wrap_content"
+        android:text="10 GB"
+        android:layout_height="25dip"
+        android:layout_below="@id/download_torent_title"
+        android:layout_toRightOf="@+id/torrent_downloaded_size"
+        android:tint="@color/colorPrimary"
+        />
+
+
+
+</RelativeLayout>

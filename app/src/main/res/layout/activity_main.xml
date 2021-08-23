@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context="com.intelisoft.easytorrents.ui.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/toolbarGestureOverlay" >
+
+        <com.astuetz.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="48dip"
+            app:pstsShouldExpand="true"
+            app:pstsTabTextColor="@color/genre"
+            app:pstsIndicatorHeight="3dp"
+            app:pstsDividerColor="@color/tabIndicator"
+            app:pstsIndicatorColor="@color/colorAccent"
+            android:background="@color/gray">
+
+        </com.astuetz.PagerSlidingTabStrip>
+
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pager"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        </LinearLayout>
+</LinearLayout>

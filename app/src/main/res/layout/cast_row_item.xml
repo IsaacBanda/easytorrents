@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingTop="6dp"
+    android:orientation="horizontal">
+
+    <com.intelisoft.easytorrents.ui.CircleImageView
+        android:id="@+id/cast_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="60dp"
+        android:layout_height="50dp" />
+
+
+
+    <in.workarounds.typography.TextView
+        android:id="@+id/tvCastName"
+        android:paddingLeft="30dp"
+        android:text="nknjb"
+        app:font_name="Roboto"
+        android:textStyle="bold"
+        app:font_variant="thin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <in.workarounds.typography.TextView
+        android:id="@+id/tvCastFakeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+</LinearLayout>

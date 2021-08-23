@@ -1,0 +1,112 @@
+{
+  "project_info": {
+    "project_number": "652170133581",
+    "firebase_url": "https://admob-app-id-6441555364.firebaseio.com",
+    "project_id": "admob-app-id-6441555364",
+    "storage_bucket": "admob-app-id-6441555364.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652170133581:android:1f658af403173b63",
+        "android_client_info": {
+          "package_name": "com.intelisoft.nettools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652170133581-8ltcr5e74s16ch4t33fbuj0n9gbobua3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intelisoft.nettools",
+            "certificate_hash": "43bda665d88c6d59b4fa2a043c0b661824e0de70"
+          }
+        },
+        {
+          "client_id": "652170133581-1n8bv11c0230a565i1o2q2n7q0qke64l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wyMsqiXcNhlSpMLcI6_DwxsFj15XYkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652170133581:android:faa4f0bff2349969",
+        "android_client_info": {
+          "package_name": "com.intelisoft.iptools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652170133581-1n8bv11c0230a565i1o2q2n7q0qke64l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wyMsqiXcNhlSpMLcI6_DwxsFj15XYkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652170133581:android:26353710f0158802",
+        "android_client_info": {
+          "package_name": "com.intelisoft.easytorrents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652170133581-1n8bv11c0230a565i1o2q2n7q0qke64l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wyMsqiXcNhlSpMLcI6_DwxsFj15XYkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

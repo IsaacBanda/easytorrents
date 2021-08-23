@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="0dp"
+    tools:context="com.intelisoft.easytorrents.ui.SearchResultActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/progress"
+         >
+    </ProgressBar>
+        <ListView
+            android:id="@+id/movie_search_list"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:dividerHeight="1dp"
+            android:layout_height="wrap_content">
+        </ListView>
+
+
+</RelativeLayout>

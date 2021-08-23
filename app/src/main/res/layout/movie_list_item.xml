@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="8dp">
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:transitionName="profile"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp" />
+
+    <!-- Movie Title -->
+    <in.workarounds.typography.TextView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="16sp"
+        app:font_variant="Regular"
+        app:font_name="Roboto"
+         />
+
+    <!-- Rating -->
+    <in.workarounds.typography.TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="14sp"
+        app:font_variant="Regular"
+        app:font_name="Roboto" />
+    <ImageView
+        android:layout_width="10dip"
+        android:layout_height="25dip"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@+id/rating"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/ic_star"
+        />
+
+    <!-- Genre -->
+    <in.workarounds.typography.TextView
+        android:id="@+id/genre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="@color/genre"
+        android:textSize="14sp"
+        app:font_variant="Regular"
+        app:font_name="Roboto" />
+
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/releaseYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/year" />
+
+</RelativeLayout>
