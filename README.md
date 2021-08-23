@@ -1,6 +1,8 @@
 # easytorrents
 This project is for Educational purposes only, downloading of torrents is prohibited and is consired to be  piracy
 
+This application downloads movies direct from YTS.mx which is the official YTS YIFY Movies Torrents website.  
+
  you can download the apk file for the app on the following link: 
 https://github.com/IsaacBanda/easytorrents/blob/main/app/app-release.apk
 
